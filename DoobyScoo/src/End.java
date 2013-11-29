@@ -1,3 +1,4 @@
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 
@@ -12,8 +13,10 @@ public class End {
 		if(death)
 		{
 			endMessage = "Oh No! Looks like you met a bad end.\nTry again for a better ending!";
+			JOptionPane.showMessageDialog(null, endMessage, "The End", JOptionPane.ERROR_MESSAGE);
+		}else{
+		JOptionPane.showMessageDialog(null, endMessage, "The End", JOptionPane.INFORMATION_MESSAGE, new ImageIcon(getClass().getResource("meddlingkids1.jpg")));
 		}
-		JOptionPane.showMessageDialog(null, endMessage, "The End", JOptionPane.ERROR_MESSAGE);
 	}
 
 }
