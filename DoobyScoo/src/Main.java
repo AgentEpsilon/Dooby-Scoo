@@ -55,7 +55,7 @@ public class Main {
 	
 	public static void pounce()
 	{
-		End end = new End("Do Not Enter Room", "Dooby pounces on the monster! Taken by surprise, it hesitates a moment too long.\nDooby rips of its mask to reveal Old Man Jenkins!", false);
+		End end = new End("Do Not Enter Room", "Dooby pounces on the monster! Taken by surprise, it hesitates a moment too long.\nDooby rips off its mask to reveal Old Man Jenkins!", false);
 	}
 	
 	public static void sneak()
