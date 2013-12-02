@@ -1,4 +1,4 @@
 Dooby-Scoo
 ==========
 
-A game that our AP Computer Science class is working on!
+Adventure through a haunted mansion with Dooby-Scoo, the mystery-solving, food-loving Great Dane.
