@@ -7,7 +7,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
-		Room entrance = new Room("Mansion Entrance", "Dooby-Scoo enters a house full of monsters and ghosts. As he enters the house he is debating whether to look for these monsters and ghosts upstairs or in the basement.", " Where should he look?", "Upstairs", "Basement");
+		Room entrance = new Room("Mansion Entrance", "Dooby-Scoo enters a house full of monsters and ghosts.\nAs he enters the house he is debating whether to look for these monsters and ghosts upstairs or in the basement.", " Where should he look?", "Upstairs", "Basement");
 		switch(entrance.getChoice())
 		{
 		case 0:
