@@ -98,7 +98,7 @@ public class Main {
 	
 	public static void swing()
 	{
-		End end = new End("Basement", "Dooby quickly swings his bat behind him, and hits something!\nWhen he turns around, he sees the monster lying on the floor, dead!", false);
+		End end = new End("Basement", "Dooby quickly swings his bat behind him, and hits something!\nWhen he turns around, he sees the monster fleeing the room, bawling like a baby.", false);
 	}
 	
 	public static void confront()
