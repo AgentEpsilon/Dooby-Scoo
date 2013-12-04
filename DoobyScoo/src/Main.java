@@ -79,7 +79,7 @@ public class Main {
 	
 	public static void suicide()
 	{
-		End end = new End("Basement", "Dooby finds a gun! However, the creepiness of the mansion is scaring Dooby so much that he quickly puts the gun to his head and pulls the trigger.", true);
+		End end = new End("Basement", "Dooby finds a gun! Suddenly, the monster appears behind him!\nDooby quickly tries to shoot the monster, but the gun has no bullets!\nThe monster rips Dooby's head off!", true);
 	}
 	
 	public static void bat()
